@@ -1,0 +1,55 @@
+.form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        width: 70%;
+        max-width: 500px;
+        background-color: bisque;
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px;
+    }
+
+    form {
+        width: 70%;
+        max-width: 500px;
+        height: 50%;
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 15px;
+        margin-top: 20px;
+
+        label {
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+        input {
+            padding: 5px;
+            font-size: 1.25rem;
+            background-color: black;
+            color: bisque;
+            border: none;
+        }
+
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        background: transparent;
+        border-radius: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+
+        &:hover {
+            border: none;
+        }
+    }
+}

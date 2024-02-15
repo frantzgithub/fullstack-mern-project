@@ -1,0 +1,24 @@
+.detail {
+    background-color: bisque;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+
+    h2{
+        margin-bottom: 10px;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+}
